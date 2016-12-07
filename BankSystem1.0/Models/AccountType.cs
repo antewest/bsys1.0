@@ -14,6 +14,6 @@ namespace BankSystem1._0.Models
         public string Name { get; set; }
         public float Interest { get; set; }
 
-        public List<User> UsersWithThisAccountType { get; set; }
+        public List<ApplicationUser> UsersWithThisAccountType { get; set; }
     }
 }

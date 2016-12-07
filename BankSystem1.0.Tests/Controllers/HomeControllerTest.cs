@@ -6,16 +6,19 @@ using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BankSystem1._0;
 using BankSystem1._0.Controllers;
+using BankSystem1._0.Models;
 
 namespace BankSystem1._0.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest
     {
+
         [TestMethod]
-        public void Index()
+        public void ShouldListAllAccountBelongingToUserKalle()
         {
             // Arrange
+
             HomeController controller = new HomeController();
 
             // Act

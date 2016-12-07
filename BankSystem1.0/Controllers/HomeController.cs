@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BankSystem1._0.Models;
 
 namespace BankSystem1._0.Controllers
 {
@@ -10,6 +11,7 @@ namespace BankSystem1._0.Controllers
     {
         public ActionResult Index()
         {
+            
             return View();
         }
 

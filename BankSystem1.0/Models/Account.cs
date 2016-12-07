@@ -15,10 +15,10 @@ namespace BankSystem1._0.Models
         public AccountType Type { get; set; }
 
         [Required]
-        public User Owner { get; set; }
+        public ApplicationUser Owner { get; set; }
 
         public DateTime CreationDate { get; set; }
-        public double Amount { get; set; }
+        public double Balance { get; set; }
 
         public bool Locked { get; set; }
         public DateTime UnlockDate {get;set;}
